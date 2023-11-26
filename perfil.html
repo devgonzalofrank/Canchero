@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Perfil</title>
+  <link rel="stylesheet" href="assets/css/estilos_perfil.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+    <div class="logo">
+      <img src="images/Free_Sample_By_Wix.jpg" alt="Logo de la empresa">
+    </div>
+      <ul class="menu">
+        <li><a href="canchero.html">Página Principal</a></li>
+        <li><a href="#">Mi Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="formulario">
+      <h2>Mi Perfil</h2>
+      <form>
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="input-group">
+          <label for="Posición">Posición:</label>
+          <input type="tel" id="Posición" name="Posición" required>
+        </div>
+        
+        <div class="input-group">
+          <label for="categoria">Categoría:</label>
+          <select id="categoria" name="categoria">
+            <option value="7ma">7ma</option>
+            <option value="6ta">6ta</option>
+            <option value="5ta">5ta</option>
+          </select>
+        </div>
+        
+        <div class="input-group">
+          <label for="nombre_apellido">Nombre y Apellido:</label>
+          <input type="text" id="nombre_apellido" name="nombre_apellido" required>
+        </div>
+        
+        <div class="input-group">
+          <label for="localidad">Localidad:</label>
+          <input type="text" id="localidad" name="localidad" required>
+        </div>
+        
+        <button type="submit">Guardar Cambios</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

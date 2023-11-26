@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Sitio</title>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+    <div class="logo">
+      <img src="images/Free_Sample_By_Wix.jpg" alt="Logo de la empresa">
+    </div>
+      <ul class="menu">
+        <li><a href="#"></a></li>
+         <li><a href="perfil.html">Mi Perfil</a></li>
+         <li><a href="sumate_a_jugar.html">SUMATE A JUGAR</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+  <div class="filtro">
+      <form class="filtro-form">
+        <div class="filtro-row">
+          <label for="zona">Zona:</label>
+          <select id="zona">
+            <option value="sur">Zona Sur</option>
+            <option value="centro">Zona Centro</option>
+            <option value="norte">Zona Norte</option>
+          </select>
+        </div>
+        <div class="filtro-row">
+          <label for="localidad">Localidad:</label>
+          <select id="localidad">
+            <option value="posadas">Posadas</option>
+            <option value="obera">Oberá</option>
+            <option value="jardin_america">Jardín América</option>
+          </select>
+        </div>
+        <div class="filtro-row">
+          <label for="cancha">Cancha:</label>
+          <select id="cancha">
+            <option value="arena">Arena</option>
+            <option value="drop">Drop</option>
+            <option value="sunset">Sunset</option>
+          </select>
+        </div>
+        <div class="filtro-row">
+          <label for="turno">Turno:</label>
+           <select id="turno">
+           <option value="18-20">18-20</option>
+            <option value="20-22">20-22</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    
+    <div class="lista-canchas">
+      <h2>Canchas Disponibles</h2>
+      <ul class="canchas-lista">
+        <li class="cancha-item">
+          <div class="cancha-info">
+            <img src="images/arena.jpeg" alt="Cancha 1">
+            <h3>Arena</h3>
+          </div>
+         <a href="pantalla_consulta.html"><button class="consultar-btn">Consultar</button></a>
+        </li>
+        <li class="cancha-item">
+          <div class="cancha-info">
+            <img src="images/cancha-tenis-deporte-olimpico-logo-vector-padel-ilustracion-diseno-pelota-tenis_557439-1747.jpg" alt="Cancha 2">
+            <h3>Drop Padel</h3>
+          </div>
+          <a href="pantalla_consulta.html"><button class="consultar-btn">Consultar</button></a>
+        </li>
+        <li class="cancha-item">
+          <div class="cancha-info">
+            <img src="images/futbol-icon.png" alt="Cancha 2">
+            <h3>Sunset</h3>
+          </div>
+          <a href="pantalla_consulta.html"><button class="consultar-btn">Consultar</button></a>
+        </li>
+        <!-- Agrega más elementos similares para cada cancha -->
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

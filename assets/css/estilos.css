@@ -1,0 +1,154 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px; /* Agregamos espacio en los extremos */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Para alinear los elementos del menú */
+}
+
+.menu li {
+  margin-left: 20px; /* Ajustamos el margen izquierdo */
+}
+
+.menu li:first-child {
+  margin-left: 0; /* Eliminamos el margen del primer elemento */
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column; /* Los elementos hijos se apilan verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.contenedor {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Estilos para el filtro */
+.filtro,
+.lista-canchas {
+  margin-top: 10px;
+  width: 80%; /* Ancho de los contenedores */
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px; /* Espacio entre los elementos */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.filtro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+
+.filtro h2,
+.lista-canchas h2 {
+  margin-top: 0;
+}
+
+.filtro-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filtro-row {
+  flex: 0 0 48%; /* Ancho de cada fila, ajustable según el diseño */
+  margin-bottom: 10px;
+}
+
+.filtro label,
+.filtro select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filtro-row label,
+.filtro-row select {
+  width: 100%;
+}
+
+.logo {
+  flex: 0 0 auto; /* Evita que el logo se estire */
+}
+
+.logo img {
+  max-width: 60px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+/* Estilos generales y otros estilos como antes */
+
+.canchas-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.cancha-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cancha-info {
+  display: flex;
+  align-items: center;
+}
+
+.cancha-info img {
+  max-width: 100px; /* Ancho máximo de la imagen */
+  height: auto;
+}
+
+.consultar-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.consultar-btn:hover {
+  background-color: #555;
+}

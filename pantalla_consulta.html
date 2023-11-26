@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pantalla de Consulta</title>
+  <link rel="stylesheet" href="assets/css/estilos_consultas.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+    <div class="logo">
+      <img src="images/Free_Sample_By_Wix.jpg" alt="Logo de la empresa">
+    </div>
+      <ul class="menu">
+        <li><a href="./canchero.html">Página Principal</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="calendario">
+      <!-- Aquí se puede agregar una imagen -->
+      <img src="images/calendario-de-noviembre-2022.png" alt="Imagen">
+    </div>
+    
+    <div class="turnos">
+      <h2>Turnos Disponibles</h2>
+      <ul class="turnos-lista">
+        <li class="rojo">14:00 - 18:00</li>
+        <li class="verde">18:00 - 20:00</li>
+        <li>20:00 - 22:00</li>
+        <li class="rojo">22:00 - 00:00</li>
+        <!-- Puedes agregar más turnos -->
+      </ul>
+    </div>
+  </main>
+  
+  <div class="parametros">
+    <h2>Parametrizar</h2>
+    <form>
+      <div class="opciones">
+        <label><input type="checkbox" name="nivel" value="principiante"> Principiante</label>
+        <label><input type="checkbox" name="nivel" value="7ma"> 7ma</label>
+        <label><input type="checkbox" name="nivel" value="6ta"> 6ta</label>
+        <label><input type="checkbox" name="nivel" value="5ta"> 5ta</label>
+        <label><input type="checkbox" name="nivel" value="4ta"> 4ta</label>
+        <label><input type="checkbox" name="nivel" value="3era"> 3era</label>
+        <label><input type="checkbox" name="nivel" value="2da"> 2da</label>
+        <label><input type="checkbox" name="nivel" value="1era"> 1era</label>
+        <!-- Otros checkbox para niveles -->
+      </div>
+      
+      <div class="completado">
+        <label><input type="checkbox" name="completado"> Cupos completos</label>
+        <label>Cupos disponibles: <input type="number" name="cupos_disponibles"></label>
+        <button type="button" class="boton-derecha">RESERVAR</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+

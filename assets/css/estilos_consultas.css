@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px; /* Agregamos espacio en los extremos */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Para alinear los elementos del menú */
+}
+
+.menu li {
+  margin-left: 20px; /* Ajustamos el margen izquierdo */
+}
+
+.menu li:first-child {
+  margin-left: 0; /* Eliminamos el margen del primer elemento */
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  flex: 0 0 auto; /* Evita que el logo se estire */
+}
+
+.logo img {
+  max-width: 60px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.calendario,
+.turnos,
+.parametros {
+  flex: 0 0 30%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-right: 10px; /* Reducción del margen */
+
+}
+
+.calendario img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.turnos h2,
+.parametros h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.turnos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.turnos-lista li {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rojo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+.parametros {
+  margin-top: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.parametros form {
+  margin-top: 20px;
+}
+
+.parametros .opciones label {
+  margin-right: 15px;
+  font-size: 0.9em;
+}
+
+.parametros .completado label {
+  margin-right: 15px;
+  font-size: 0.9em;
+}
+
+input[type="number"] {
+  padding: 8px;
+  width: 60px;
+}
+
+.completado {
+  display: flex;
+  align-items: center;
+}
+
+.completado label {
+  margin-right: 15px;
+  font-size: 0.9em;
+}
+
+.boton-derecha {
+  padding: 10px 20px; /* Ajusta el tamaño del botón según sea necesario */
+  margin-left: auto; /* Coloca el botón al extremo derecho */
+  background-color: orange;
+}
