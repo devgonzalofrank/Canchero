@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #8b8e58;
+  background-color: #052ba4;
   color: #fff;
   padding: 10px 20px; /* Agregamos espacio en los extremos */
 }
@@ -34,7 +34,7 @@ header {
 }
 
 .menu li a {
-  color: #3a4868;
+  color: white;
   text-decoration: none;
 }
 
