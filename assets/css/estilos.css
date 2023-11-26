@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #1AEE56;
   color: #fff;
   padding: 10px 20px; /* Agregamos espacio en los extremos */
 }
@@ -34,7 +34,7 @@ header {
 }
 
 .menu li a {
-  color: #fff;
+  color: #3a4868;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ main {
 }
 
 .logo img {
-  max-width: 60px; /* Ajusta el tamaño del logo */
+  max-width: 250px; /* Ajusta el tamaño del logo */
   height: auto;
 }
 
