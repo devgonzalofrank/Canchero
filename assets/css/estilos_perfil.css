@@ -105,4 +105,28 @@ button:hover {
 
 .cerrar{
     margin-top: 5px;
+    background-color: red;
+}
+
+/* Otros estilos que tengas */
+
+.puntos-box {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.puntos-box h3 {
+  margin-top: 0;
+}
+
+.puntos-box p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
