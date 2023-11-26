@@ -112,6 +112,10 @@ main {
   height: auto;
 }
 
+.copa{
+    scale: 35%;
+}
+
 /* Estilos generales y otros estilos como antes */
 
 .canchas-lista {
@@ -140,7 +144,7 @@ main {
 }
 
 .consultar-btn {
-  background-color: #333;
+  background-color: blue;
   color: #fff;
   border: none;
   padding: 8px 15px;

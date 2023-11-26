@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="assets/css/estilos_login.css">
+</head>
+<body>
+  <div class="login-container">
+    <form action="./canchero.html" class="login-form">
+      <h2>Iniciar Sesión</h2>
+      <div class="select-box">
+        <select name="rol">
+          <option value="jugador" selected>Jugador</option>
+          <option value="club">Club</option>
+          <option value="profesor">Profesor</option>
+        </select>
+      </div>
+      <div class="input-box">
+        <input type="text" name="usuario" placeholder="Usuario o Correo">
+      </div>
+      <div class="input-box">
+        <input type="password" name="contraseña" placeholder="Contraseña">
+      </div>
+      <p class="forgot-password">¿Olvidaste tu contraseña?</p>
+      <button class="login-btn">Iniciar Sesión</button>
+    </form>
+  </div>
+</body>
+</html>
