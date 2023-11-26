@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #1AEE56;
+  background-color: #8b8e58;
   color: #fff;
   padding: 10px 20px; /* Agregamos espacio en los extremos */
 }
@@ -43,7 +43,7 @@ header {
 }
 
 .logo img {
-  max-width: 250px; /* Ajusta el tamaño del logo */
+  max-width: 100px; /* Ajusta el tamaño del logo */
   height: auto;
 }
 
